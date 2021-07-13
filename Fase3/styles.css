@@ -1,54 +1,42 @@
-* {
+* { /*estas bloque eliminan bordes y rellenos que son estandar para todos los navegadores */
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     
 }
 
-body{
+body{ 
     background-color:silver;
     display: grid;
-    grid-template-columns:repeat(5,auto);
-    grid-template-rows: repeat(5,auto);
-    column-gap: 20px;
-    row-gap: 20px;
-    margin-inline: 20px 20px;
-    margin-block: 20px 20px;
-    font-size: 18px;
+    grid-template-columns:repeat(5,auto);/*particion de 5 columnas para nuestro pagina web*/
+    grid-template-rows: repeat(5,auto);/*particion de nuestro sitio web en 5 filas*/
+    column-gap: 20px; /*separacion entre columnas de 20 pixeles*/
+    row-gap: 20px; /*separacion entre filas de 20 pixeles*/
+    margin-inline: 20px 20px;/*introduce una margen en el lado izquierdo y derecho de toda la pagina*/
+    margin-block: 20px 20px; /*introduce una margen arriba y abajo de toda la pagina la pagina*/
+    font-size: 18px;/*implementacion de un tipo de letra mas grande para el sitio web*/
     
 }
 
 .logo{
     
-   width: 140px;
+   width: 140px;/*tamaño del logo*/
    height: 115px;
-   filter: brightness(1.1);
-   mix-blend-mode: multiply;
-   
-   
-    
-   
+   filter: brightness(1.1);/*quita el brillo de la imagen*/
+   mix-blend-mode: multiply;/*retira el fondo blanco de la imagen haciendo que el logo se mezcle con el fondo que esta detras de el*/
     
 }
 .titulo {
-    
-    font-size: 17px;
-    text-align: center;
-    grid-column: 1/5;
-    grid-row: 1/2;
-    padding-block-start: 35px;
-    
-    
-
+    text-align: center; /*alineacion del titulo en el centro */
+    grid-column: 1/5; /* tamaño del titulo en la cantidad de columnas que tomaria todo el tamalño de la pagina web*/
+    grid-row: 1/2; /*Tamaño del titulo va entre la fila 1 y la fila 2*/
+    padding-block-start: 35px;/*Espacio entre la parte de arriba y el titulo*/
 }
-
-
- 
 
 .seccion{
     background-color: white;
-    grid-column: 1/4;
-    grid-row: 3/5;
+    grid-column: 1/4;/*tamaño de la etiqueta seccion va entre la columna 1 y la columna 4*/
+    grid-row: 3/5;/*tamaño de la etiqueta seccion va entre la fila 3 y la fila 5 */
     border: 2px solid black;
     padding: 30px;
     min-width: 930px;
