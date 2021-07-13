@@ -6,7 +6,7 @@
 }
 
 body{ 
-    background-color:silver;
+    background-image: linear-gradient(to right top, #000000, #3b3b3b, #777777, #b9b9b9, #ffffff);
     display: grid;
     grid-template-columns:repeat(5,auto);/*particion de 5 columnas para nuestro pagina web*/
     grid-template-rows: repeat(5,auto);/*particion de nuestro sitio web en 5 filas*/
@@ -34,7 +34,7 @@ body{
 }
 
 .seccion{
-    background-color: white;
+    background-color:white;
     grid-column: 1/4;/*tamaño de la etiqueta seccion va entre la columna 1 y la columna 4*/
     grid-row: 3/5;/*tamaño de la etiqueta seccion va entre la fila 3 y la fila 5 */
     border: 2px solid black; /*demarcacion con un borde para la etiqueta seccion*/
