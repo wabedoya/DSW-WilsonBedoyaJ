@@ -37,15 +37,15 @@ body{
     background-color: white;
     grid-column: 1/4;/*tamaño de la etiqueta seccion va entre la columna 1 y la columna 4*/
     grid-row: 3/5;/*tamaño de la etiqueta seccion va entre la fila 3 y la fila 5 */
-    border: 2px solid black;
-    padding: 30px;
-    min-width: 930px;
-    min-height: 330px;
+    border: 2px solid black; /*demarcacion con un borde para la etiqueta seccion*/
+    padding: 30px; /*creacion de una relleno en todos los sentidos para la etiqueta seccion*/
+    min-width: 930px; /*tamaño minimo a la ancho de la seccion */
+    min-height: 330px;/*tamaño nimimo a lo alto de la seccion esto con el fin de que siempre tenga el minimo tamaño de altura*/
     
     
 }
 h2{
-    text-align: center;
+    text-align: center; /*alineacion de los titulos tipo h2*/
     padding-block-start: 20px;
     padding-block-end: 30px;
     
@@ -152,9 +152,6 @@ h3{
     display: block;
     margin: auto ;
     margin-top: 30px;
-    
    
-    
-    
 }
 
