@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+ /*estilos del cuerpo de mi pagina*/
 body{ 
     background-image: linear-gradient(to right top, #000000, #3b3b3b, #777777, #b9b9b9, #ffffff);
     padding-block-start: 20px;
@@ -23,6 +24,7 @@ body{
     mix-blend-mode: multiply;/*retira el fondo blanco de la imagen haciendo que el logo se mezcle con el fondo que esta detras de el*/
      
  }
+  /*estilos del navegador*/
 #nav{
      margin-block-start: 40px;
      margin-block-end: 40px;
@@ -35,7 +37,9 @@ body{
      
      
  }
- #aprendizaje a{ /*Señalo el color de la etiqueta diferente en el navegador para que llame la atencion que es la actividad nueva */
+ /*Señalo el color de la etiqueta diferente en el navegador para que llame la atencion que es la 
+ actividad nueva */
+ #aprendizaje a{ 
      color: #97c93e !important;
  }
 #main{
@@ -125,6 +129,8 @@ h3{
     margin: auto ;
     margin-top: 30px;
 }
+/*En esta media query cuando el tamaño de la pantalla este entre  575 pixeles y 200 pixeles mi
+ pagina se adaptara a cierta propiedades que impondre*/
 @media screen and (min-width:200px) and (max-width:575px){
     body{
         font-size: 12px;
@@ -169,8 +175,8 @@ h3{
    }
 }
     
-
-
+/*En esta media query cuando el tamaño de la pantalla este entre  992 pixeles y 576 pixeles mi
+ pagina se adaptara a cierta propiedades que impondre*/
 @media  screen and (min-width:576px) and (max-width:992px){
     body{
         font-size:14px;
@@ -187,7 +193,7 @@ h3{
         margin-inline-start: 40px;
     }
     #iframe-form{
-        width: 400px;
+        width: 450px;
         height: 520px;
         margin: 0;
 
